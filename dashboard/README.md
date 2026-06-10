@@ -3,8 +3,8 @@
 > Note that the first time loading the page will take a while, because it needs to load the duckdb indexes.
 
 ```bash
-python3 -m venv .movie_env
-. .movie_env/bin/activate
+python3 -m venv .venv
+. .venv/bin/activate
 pip install -r requirements.txt
 
 streamlit run Titles.py
